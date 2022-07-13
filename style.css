@@ -796,10 +796,11 @@ align-items: center;
   }
   .home .homec .left img
   {
-      height: 560px;
-      width: 500px;
-     /* margin-left: 200px;*/
+      height: 250px;
+      width: 200px;
+     margin-left: 200px;
       align-content: center;
+      margin-top: 20px;
       
   }
   .home .homec .right

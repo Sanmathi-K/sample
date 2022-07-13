@@ -903,25 +903,6 @@ align-items: center;
 
   
   
-  footer .social 
-  {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:10px 0;
-    flex-wrap: wrap;
-    padding-left: 25em;
-
-  }
-
-  footer .menu1
- {
-     
-     display: none;
-    
-    
- }
   
 }
   @media screen and (max-width:500px)

@@ -759,7 +759,7 @@ align-items: center;
     width: 100%; 
     padding: 0;
   }
- /* .home .homec .text1
+  .home .homec .text1
   {
     font-size: 30px;
   }
@@ -770,7 +770,7 @@ align-items: center;
   .home .homec .text3
   {
       font-size: 40px;
-  }*/
+  }
   .home .homec a
   {
       font-size: 23px;
@@ -796,8 +796,8 @@ align-items: center;
   }
   .home .homec .left img
   {
-      height: 350px;
-      width: 300px;
+      height: 250px;
+      width: 200px;
       margin-left: 260px;
       align-content: center;
       

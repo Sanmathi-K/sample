@@ -446,6 +446,11 @@ html{
    font-size: 25px;
       font-weight: 500;
       margin: 10px 0 7px 0;
+      color:white;
+    }
+    .project .carousel .card .box p
+    {
+      color:white;
     }
     .project .carousel .card img{
       height: 200px;
@@ -818,11 +823,28 @@ align-items: center;
       width: 100%;
       margin-bottom: 45px;
   }
-  .project .projectc .card .box
+  .project .carousel .card
   {
-    width:150%;
+    width: 100%;
   }
-  .contact .contact-content .column{
+  
+
+  .project .carousel .card .text
+  {
+      font-size: 30px;
+      font-weight: 500;
+      margin: 10px 0 7px 0;
+  }
+  .project .carousel .card .box p
+  {
+      font-size: 22px;
+      
+  }
+    
+  
+  
+  
+    .contact .contact-content .column{
       width: 100%;
       margin-bottom: 35px;
   } 

@@ -796,11 +796,10 @@ align-items: center;
   }
   .home .homec .left img
   {
-      height: 250px;
-      width: 200px;
-     margin-left: 200px;
+      height: 350px;
+      width: 300px;
+      margin-left: 260px;
       align-content: center;
-      margin-top: 20px;
       
   }
   .home .homec .right
@@ -823,19 +822,7 @@ align-items: center;
   {
     width:150%;
   }
-.contact .contact-content .column{
-  width: 100%;
-  margin-bottom: 35px;
-}  .about .about-content .column{
-  width: 100%;
-}
-  .project .projectc .column
-  {
-  width: 100%;
-  margin-bottom: 35px;
-  } 
-}
-  /*.contact .contact-content .column{
+  .contact .contact-content .column{
       width: 100%;
       margin-bottom: 35px;
   } 
@@ -874,47 +861,12 @@ align-items: center;
   {
     padding-left: 4em;
   }  
-*/
-@media (max-width: 500px) {
-  .home .home-content .left{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 60px;
-    height: 20vh;
-  }
-  .home .home-content .right{
-    flex: 100%;
 
-  }
-  .home .home-content .text-1{
-      font-size: 20px;
-  }
-  .home .home-content .text-2{
-      font-size: 25px;
-  }
-  .home .home-content .text-3{
-    font-size: 20px;
-}
-.home .home-content .text-4{
-    font-size: 17px;
-}
-  
-
-  .skill .skill-content .containers{
-    font-size: 20px;
-    font-weight: 250px;
-  }
-
-  .contact .right form .fields{
-      flex-direction: column;
-  }
-  .contact .right form .name,
-  .contact .right form .email{
-      margin: 0;
-  }
-  .right form .error-box{
-     width: 150px;
-  }
+  .project .projectc .column
+  {
+  width: 100%;
+  margin-bottom: 35px;
+  } 
 }
   @media screen and (max-width:500px)
    {

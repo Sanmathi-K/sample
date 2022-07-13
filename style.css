@@ -497,8 +497,9 @@ html{
 }
 .contact .contact-content .row{
   display: flex;
-  height: 85px;
+  height: 65px;
   align-items: center;
+  margin-left: 2em;
 }
 .contact .contact-content .row .info{
   margin-left: 30px;
@@ -906,14 +907,18 @@ align-items: center;
 
   .contact .contact-content .info .head{
     
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(183, 117, 245);
   }
   .contact .contact-content .info .sub-title{
     
-    font-size: 20px;
+    font-size: 25px;
   }
-
+  .contact .contact-content .row{
+    display: flex;
+    height: 95px;
+    align-items: center;
+  }
   
 
 

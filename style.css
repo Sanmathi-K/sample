@@ -824,21 +824,13 @@ align-items: center;
       width: 100%;
       margin-bottom: 35px;
   } 
-  .contact .contact-content .info .head
-  {
-    
-    font-size: 20px;
-  }
-  .contact .contact-content .info .sub-title
-  {
-    
-    font-size: 25px;
-    
-  }
+  
   .contact .contact-content .text
   {
     padding-left: 4em;
   }
+
+  
   
   .textarea,.button-area,.mess,.sub
   {

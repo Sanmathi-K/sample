@@ -486,13 +486,7 @@ html{
 }
 .contact .contact-content .text{
   font-size: 20px;
-  padding-top: 4em;
-  margin-bottom: 10px;
-}
-.contact .contact-content .details{
-  font-size: 20px;
-  padding-left: 3em;
-  
+  font-weight: 600;
   margin-bottom: 10px;
 }
 .contact .contact-content .left p{
@@ -523,13 +517,11 @@ html{
   display: flex;
 }
 .contact .right form .field,
-
 .contact .right form .fields .field{
   height: 45px;
   width: 100%;
   margin-bottom: 15px;
 }
-
 .contact .right form .textarea{
   height: 80px;
   width: 100%;
@@ -549,8 +541,7 @@ html{
   font-family: 'Poppins', sans-serif;
   transition: all 0.3s ease;
 }
-.contact .right form .field  input:focus,
-
+.contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{
   border-color: #b3b3b3;
 }
@@ -580,11 +571,8 @@ align-items: center;
 .right form .button-area button:hover{
   color: rgb(183, 117, 245);
   background: none;
-} 
-.contact .contact-content .right
-{
-  padding-bottom: 4em;
 }
+
  /*footer*/
  footer
  {
@@ -769,7 +757,7 @@ align-items: center;
   }
   .home .homec .text3
   {
-      font-size: 55px;
+      font-size: 45px;
   }
   .home .homec a
   {
@@ -813,6 +801,16 @@ align-items: center;
     border-radius: 50%;    
     margin-left: 240px;
   }
+  .right1 .txt 
+  {
+      
+      font-size: 25px;
+      
+  }
+  .txt1
+  {
+    font-size: 45px;
+  }
   .project .projectc .column
   {
       width: 100%;
@@ -828,13 +826,14 @@ align-items: center;
   } 
   .contact .contact-content .info .head
   {
-    padding-left: 2em;
-    font-size: 25px;
+    
+    font-size: 20px;
   }
   .contact .contact-content .info .sub-title
   {
-    padding-left: 3em;
-    font-size: 20px;
+    
+    font-size: 25px;
+    
   }
   .contact .contact-content .text
   {
@@ -873,31 +872,7 @@ align-items: center;
 
 
 
-  .contact .right form .fields .field{
-    height: 60px;
-    width: 100%;
-    margin-bottom: 15px;
-  }
   
-  .contact .right form .textarea{
-    height: 80px;
-    width: 100%;
-  }
-  .contact .right form .name{
-    margin-right: 10px;
-  }
-  .contact .right form .field input,
-  .contact .right form .textarea textarea{
-    height: 100%;
-    width: 80%;
-    border: 1px solid lightgrey;
-    border-radius: 6px;
-    outline: none;
-    padding: 0 15px;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.3s ease;
-  }
 
 
 

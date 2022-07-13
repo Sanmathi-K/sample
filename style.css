@@ -800,9 +800,8 @@ align-items: center;
   }
   .home .homec .left img
   {
-      height: 560px;
-      width: 500px;
-      margin-left: 260px;
+      
+      margin-left: 200px;
       align-content: center;
       
   }

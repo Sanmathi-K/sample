@@ -863,12 +863,12 @@ align-items: center;
   {
     padding-left: 4em;
   }  
-  
   .project .projectc .column
   {
-  width: 100%;
-  margin-bottom: 35px;
-  } 
+    width:100%;
+    border-bottom: 35px;
+  }
+  
 
 
 
@@ -898,6 +898,31 @@ align-items: center;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
   }
+
+
+
+  
+  
+  footer .social 
+  {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 0;
+    flex-wrap: wrap;
+    padding-left: 25em;
+
+  }
+
+  footer .menu1
+ {
+     
+     display: none;
+    
+    
+ }
+  
 }
   @media screen and (max-width:500px)
    {
@@ -1011,3 +1036,8 @@ align-items: center;
 	
 }
 
+@media (max-width: 992px) {
+  .max-width{
+      padding: 0 50px;
+  }
+}

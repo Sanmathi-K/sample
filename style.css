@@ -181,7 +181,11 @@ html{
     color: white;
 }
 
-
+.home .homec .left img
+{
+  width:"420px"; 
+  height:"460px"
+}
 
  /*about*/
  .left1 {

@@ -798,7 +798,7 @@ align-items: center;
   {
       height: 560px;
       width: 500px;
-      margin-left: 200px;
+     /* margin-left: 200px;*/
       align-content: center;
       
   }

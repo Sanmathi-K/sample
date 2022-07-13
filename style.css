@@ -829,10 +829,12 @@ align-items: center;
   .contact .contact-content .info .head
   {
     padding-left: 2em;
+    font-size: 25px;
   }
   .contact .contact-content .info .sub-title
   {
     padding-left: 3em;
+    font-size: 20px;
   }
   .contact .contact-content .text
   {
@@ -861,12 +863,41 @@ align-items: center;
   {
     padding-left: 4em;
   }  
-
+  
   .project .projectc .column
   {
   width: 100%;
   margin-bottom: 35px;
   } 
+
+
+
+
+  .contact .right form .fields .field{
+    height: 60px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+  }
+  .contact .right form .name{
+    margin-right: 10px;
+  }
+  .contact .right form .field input,
+  .contact .right form .textarea textarea{
+    height: 100%;
+    width: 80%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+  }
 }
   @media screen and (max-width:500px)
    {

@@ -366,7 +366,7 @@ html{
   background-color: none;
 }
 .timeline {
-  width: 80%;
+  width: 95%;
   height: auto;
   max-width: 1120px;
   margin: 0 auto;
@@ -390,22 +390,25 @@ html{
   margin-bottom: 0;
 }
 .timeline-content h1 {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 30px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 35px;
   margin-bottom: 10px;
   color: white;
 }
 .timeline-content p {
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
   color: #fff;
   padding-top: 1em;
 }
 .timeline-content .date {
-  font-size: 16px;
-  margin-bottom: 25px;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 35px;
   letter-spacing: 2px;
+  font-weight: 300px;
 }
 
 
@@ -979,6 +982,10 @@ align-items: center;
 
 
   @media only screen and (min-width: 992px) {
+    
+
+
+
     .timeline:before {
       content: "";
       position: absolute;
@@ -1026,6 +1033,7 @@ align-items: center;
     .timeline-content .date {
       position: absolute;
       top: -30px;
+      font-size: 25px;
     }
     .timeline ul li:hover::before {
       background-color: rgb(205, 156, 251);
@@ -1035,7 +1043,27 @@ align-items: center;
     {
       padding: 10px;
     }
-
+  
+  .timeline-content h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .timeline-content p {
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    padding-top: 1em;
+  }
+  .timeline-content .date {
+    font-size: 19px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    line-height: 10px;
+  }
+    
     .project .projectc .column{
       width: 100%;
       margin-bottom: 35px;
@@ -1043,19 +1071,7 @@ align-items: center;
   .container {
     min-height: 60mvh;
   }
-  .timeline-content h1 {
-    
-    font-size: 35px;
-   
-  }
-  .timeline-content p {
-    font-size: 25px;
-    
-  }
-  .timeline-content .date {
-    font-size: 18px;
-    
-  }
+  
     
   }
 

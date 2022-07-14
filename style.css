@@ -316,7 +316,7 @@ html{
 	padding: 20px;
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content:space-around;
 	flex-wrap: wrap;
 }
 
@@ -434,7 +434,7 @@ html{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  
   transition: all 0.3s ease;
 }
 .project .carousel .card:hover .box
@@ -666,7 +666,7 @@ align-items: center;
 }
 .gotopbtn:hover
 {
-    background: green;
+    background: rgb(115, 73, 154);
 }
  
 @media (max-width: 992px){
@@ -826,18 +826,32 @@ align-items: center;
         font-size: 57px;
         text-align: center;
     }
+    /*skill*/
     .wrapper .header1
     {
       font-size: 55px;
     }
+    .cards_wrap .card_item .role_name{
+      color: black;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 20px;
+      white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    /*project*/
   .project .projectc .column
   {
-      width: 100%;
+      width: 130%;
       margin-bottom: 45px;
   }
   .project .carousel .card
   {
     width: 100%;
+    align-items: center;
+    display: flex;
   }
   
 
@@ -855,12 +869,19 @@ align-items: center;
   .project .carousel .card .box
 {
   width: 100%;
+  
 }
-    
-  
-  
-  
-    .contact .contact-content .column{
+.project .carousel .card
+{
+  background:rgb(115, 73, 154);
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+   /*contact*/ 
+  .contact .contact-content .column{
       width: 100%;
       margin-bottom: 35px;
   } 
@@ -902,12 +923,12 @@ align-items: center;
   
   .contact .right form .field,
   .contact .right form .fields .field{
-    height: 45px;
+    height: 65px;
     width: 100%;
     margin-bottom: 15px;
   }
   .contact .right form .textarea{
-    height: 80px;
+    height: 120px;
     width: 100%;
   }
   .contact .right form .name{
@@ -938,23 +959,23 @@ align-items: center;
    
   }
   
-  .right .text
+  .right .text h3
   {
-    font-size: 28px;
+    font-size: 32px;
   }
 
   .contact .contact-content .info .head{
     
-    font-size: 30px;
+    font-size: 32px;
     color: rgb(183, 117, 245);
   }
   .contact .contact-content .info .sub-title{
     
-    font-size: 25px;
+    font-size: 28px;
   }
   .contact .contact-content .row{
     display: flex;
-    height: 95px;
+    height: 100px;
     align-items: center;
   }
   
@@ -1107,4 +1128,34 @@ align-items: center;
   .max-width{
       padding: 0 50px;
   }
+}
+
+@media (max-width: 947px) {
+ /*project*/
+ .project .projectc .column
+ {
+     width: 100%;
+     margin-bottom: 45px;
+ }
+ .project .carousel .card
+ {
+   width: 100%;
+ }
+ 
+
+ .project .carousel .card .text
+ {
+     font-size: 30px;
+     font-weight: 500;
+     margin: 10px 0 7px 0;
+ }
+ .project .carousel .card .box p
+ {
+     font-size: 22px;
+     
+ }
+ .project .carousel .card .box
+{
+ width: 100%;
+}
 }

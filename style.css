@@ -720,7 +720,7 @@ align-items: center;
         width: 100%;
         left: -100%;
         top: 0;
-        background: rgb(115, 73, 154);
+        background:yellow;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;

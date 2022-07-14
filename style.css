@@ -1043,6 +1043,19 @@ align-items: center;
   .container {
     min-height: 60mvh;
   }
+  .timeline-content h1 {
+    
+    font-size: 35px;
+   
+  }
+  .timeline-content p {
+    font-size: 25px;
+    
+  }
+  .timeline-content .date {
+    font-size: 18px;
+    
+  }
     
   }
 

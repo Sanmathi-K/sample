@@ -969,7 +969,8 @@ align-items: center;
   
   .right .text h3
   {
-    font-size: 32px;
+    font-size: 35px;
+    padding-right:30px;
   }
 
   .contact .contact-content .info .head{

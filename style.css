@@ -1041,10 +1041,7 @@ align-items: center;
       padding: 10px;
     }
 
-    .project .projectc .column{
-      width: 100%;
-      margin-bottom: 35px;
-  }
+   
   .container {
     min-height: 60mvh;
   }
@@ -1068,6 +1065,10 @@ align-items: center;
 	.cards_wrap .card_item{
 		width: 50%;
 	}
+  .cards_wrap
+  {
+    width:90%;
+  }
 	
 }
 

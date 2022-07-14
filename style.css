@@ -181,7 +181,11 @@ html{
     color: white;
 }
 
-
+.home .homec .left img
+{
+  width:420px; 
+  height:460px;
+}
 
  /*about*/
  .left1 {
@@ -792,12 +796,14 @@ align-items: center;
   }
   .home .homec .left img
   {
-      height: 300px;
-      width: 250px;
-      margin-left: 260px;
+      height: 560px;
+      width: 500px;
+      margin-left: 110px;
       align-content: center;
+      margin-top: 50px;
       
   }
+  
   .home .homec .right
   {
       width:100%;
@@ -815,6 +821,7 @@ align-items: center;
       
       font-size: 30px;
       line-height: 60px;
+     
       
   }
   .txt1
@@ -824,7 +831,8 @@ align-items: center;
   .aboutce .txt1 
     {
         font-size: 57px;
-        text-align: center;
+        text-align:center;
+        
     }
     /*skill*/
     .wrapper .header1

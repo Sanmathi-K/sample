@@ -970,7 +970,7 @@ align-items: center;
   .right .text h3
   {
     font-size: 35px;
-    padding-right:30px;
+    padding-left: 7em;
   }
 
   .contact .contact-content .info .head{

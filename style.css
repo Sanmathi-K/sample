@@ -947,7 +947,12 @@ align-items: center;
     align-items: center;
   }
   
-
+  .width
+  {
+      max-width: 1600px;
+      padding: 0 50px;
+      margin: auto;
+  }
 
 
   
